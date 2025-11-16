@@ -15,3 +15,7 @@ for a in range(1,51):
 
 t_sum = sum(range(1,51))
 print(f'use sum method for sum, {t_sum}')
+
+# Print squares of numbers from 1 to 10
+# (1, 4, 9, 16, …)
+
