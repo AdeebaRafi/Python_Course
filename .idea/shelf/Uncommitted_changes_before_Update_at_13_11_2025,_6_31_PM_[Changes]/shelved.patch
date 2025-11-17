@@ -1,0 +1,53 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"1f597146-5767-414a-8d03-5c0b03fd4eef\" name=\"Changes\" comment=\"commit\">\n      <change afterPath=\"$PROJECT_DIR$/LeetCode Problems/136. Single Number.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/LeetCode Problems/412. Fizz Buzz.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/LeetCode Problems/9. Palindrome Number.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/loops.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/conditions.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/conditions.py\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\n  \"lastFilter\": {\n    \"state\": \"OPEN\",\n    \"assignee\": \"AdeebaRafi\"\n  }\n}]]></component>\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\n  \"selectedUrlAndAccountId\": {\n    \"url\": \"https://github.com/AdeebaRafi/Python_Practice.git\",\n    \"accountId\": \"359ea9b4-4028-48fb-80ad-9bf6bcc15775\"\n  }\n}]]></component>\n  <component name=\"ProjectColorInfo\"><![CDATA[{\n  \"associatedIndex\": 8\n}]]></component>\n  <component name=\"ProjectId\" id=\"35NBqL6a8H3oljbgQY7EpFvtand\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Python.conditions.executor\": \"Run\",\n    \"Python.loops.executor\": \"Run\",\n    \"Python.main.executor\": \"Run\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.git.unshallow\": \"true\",\n    \"git-widget-placeholder\": \"main\"\n  }\n}]]></component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"1f597146-5767-414a-8d03-5c0b03fd4eef\" name=\"Changes\" comment=\"\" />\n      <created>1762940838729</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1762940838729</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"commit\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1762942901051</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1762942901051</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"commit\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"commit\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5f333687c05e7c22e28d71b9d7dd22d0dd4bf094)
++++ b/.idea/workspace.xml	(date 1763040661351)
+@@ -4,14 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="1f597146-5767-414a-8d03-5c0b03fd4eef" name="Changes" comment="commit">
+-      <change afterPath="$PROJECT_DIR$/LeetCode Problems/136. Single Number.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/LeetCode Problems/412. Fizz Buzz.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/LeetCode Problems/9. Palindrome Number.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/loops.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/conditions.py" beforeDir="false" afterPath="$PROJECT_DIR$/conditions.py" afterDir="false" />
+-    </list>
++    <list default="true" id="1f597146-5767-414a-8d03-5c0b03fd4eef" name="Changes" comment="update" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -82,7 +75,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1762942901051</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="update">
++      <option name="closed" value="true" />
++      <created>1763040557961</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1763040557961</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -98,6 +99,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="commit" />
+-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
++    <MESSAGE value="update" />
++    <option name="LAST_COMMIT_MESSAGE" value="update" />
+   </component>
+ </project>
+\ No newline at end of file
