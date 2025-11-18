@@ -23,7 +23,7 @@ Even_Odd(3)
 Even_Odd(11)
 Even_Odd(20)
 
-# Find the largest of three numbers
+# Find the largest numbers
 
 array = [1,0,5,4,3,100,9,-9, -1, -99, 20]
 largest_number = array[0]
@@ -34,6 +34,8 @@ print(largest_number)
 
 array.sort()
 array.reverse()
+# Find the largest of three numbers
+
 top_three = array[0:3]
 lower_three = array[-3:]
 print(f"top 3 largest numbers are: {top_three}" )
