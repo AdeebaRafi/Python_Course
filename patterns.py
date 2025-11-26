@@ -29,5 +29,13 @@ for e in range(1,rows+1):
 # CCC
 # DDDD
 
-print(chr(65));
+# print(chr(65));
+
+for i in range(4):
+    letter = chr(65 + i)
+    for j in range(i + 1):
+        print(letter, end="")
+    print()
+
+
 
