@@ -2,6 +2,7 @@
 #     for j in range(i):
 #         print(i, end="")
 #     print()
+from main import largest_number
 
 # Print
 # *
@@ -52,3 +53,29 @@ print(sum)
 # nums = [4, 9, 1, 5, 7]
 # Find the largest number without using the max() function.
 
+nums = [4, 9, 1, 5, 7]
+largest_number = nums[0]
+for e in nums:
+    if e>largest_number:
+        largest_number=e
+        print(largest_number)
+
+# Given a list
+# nums = [1, 2, 3, 2, 1, 2]
+# Count how many times the number 2 appears.
+
+c=0
+num = [2, 2, 3, 2, 1, 2]
+for w in num:
+    if w == 2:
+        c+=1
+print(c)
+
+# Given a list
+# nums = [3, 6, 9, 2, 4]
+# Make a new list with all numbers doubled
+# Example result
+# [6, 12, 18, 4, 8]
+
+n = [3, 6, 9, 2, 4]
+for a in n:
