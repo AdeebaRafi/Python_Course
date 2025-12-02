@@ -1,4 +1,4 @@
-# LeetCode Problems for practicing logic + functions:
+# LeetCode Problems for practicing logic + functions: : 
 
 [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
