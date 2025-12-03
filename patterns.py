@@ -144,3 +144,11 @@ for i in range(len(s)):
         print("index is", i)
         break
 
+for i in range(4):
+    # Get the letter from number (65 is A)
+    letter = chr(65 + i)
+    # Print the letter (i+1) times
+    for j in range(i + 1):
+        print(letter, end="")
+    print()  # Move to the next line
+
