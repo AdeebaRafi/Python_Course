@@ -33,6 +33,18 @@
 # Take one number.
 # Print all numbers from 1 to that number
 
-p = int(input())
-for i in range(1, p+1):
-    print(i)
+# p = int(input())
+# for i in range(1, p+1):
+#     print(i)
+
+# Take one number.
+# Print the sum of all numbers from 1 to that number.
+
+t = int(input())
+
+total = 0
+
+for r in range(1, t + 1):
+    total = total + r
+
+print(total)
