@@ -40,11 +40,34 @@
 # Take one number.
 # Print the sum of all numbers from 1 to that number.
 
-t = int(input())
+# t = int(input())
+#
+# total = 0
+#
+# for r in range(1, t + 1):
+#     total = total + r
+#
+# print(total)
 
-total = 0
+# Take one number n.
+# Count how many even numbers are there from 1 to n.
+# Print the count.
 
-for r in range(1, t + 1):
-    total = total + r
+# a = int(input())
+# count =0
+# for i in range(1, a+1):
+#     if i%2==0:
+#         count = count +1
+# print(count)
 
-print(total)
+# Take one number n.
+# Print the sum of all even numbers from 1 to n.
+
+i = int(input())
+sum =0
+for r in range(1, i+1):
+    if r%2==0:
+        sum = sum + r
+print(sum)
+
+# 2 4 6 8 1
