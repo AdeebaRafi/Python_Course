@@ -122,3 +122,12 @@ for i in nums:
     seen.add(i)
 else:
     print(False)
+
+Problem
+
+# Given two strings, check if one is an anagram of the other.
+#
+# Example
+# s = "anagram"
+# t = "nagaram"
+# Output: true
