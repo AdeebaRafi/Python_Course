@@ -154,3 +154,11 @@ else:
     else:
         print(True)
 
+# You are given prices of a stock each day.
+# You can buy once and sell once.
+# Find maximum profit.
+#
+# Example
+# prices = [7, 1, 5, 3, 6, 4]
+# Output: 5
+
