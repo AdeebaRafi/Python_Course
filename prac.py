@@ -113,17 +113,17 @@
 # nums = [1, 2, 3, 1]
 # Output: true
 
-nums = [1, 2, 3, 1]
-seen = set()
-for i in nums:
-    if i in seen:
-        print(True)
-        break
-    seen.add(i)
-else:
-    print(False)
+# nums = [1, 2, 3, 1]
+# seen = set()
+# for i in nums:
+#     if i in seen:
+#         print(True)
+#         break
+#     seen.add(i)
+# else:
+#     print(False)
 
-Problem
+
 
 # Given two strings, check if one is an anagram of the other.
 #
@@ -131,3 +131,26 @@ Problem
 # s = "anagram"
 # t = "nagaram"
 # Output: true
+
+s = "anagram"
+t = "nagaram"
+
+if len(s) != len(t):
+    print(False)
+else:
+    count = {}
+
+    for c in s:
+        count[c] = count.get(c, 0) + 1
+
+    for c in t:
+        if c not in count:
+            print(False)
+            break
+        count[c] -= 1
+        if count[c] < 0:
+            print(False)
+            break
+    else:
+        print(True)
+
