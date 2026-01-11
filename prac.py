@@ -234,3 +234,26 @@ while pos < len(nums):
     pos += 1
 
 print(nums)
+
+
+nums = [2, 1, 5, 1, 3, 2]
+k = 3
+
+window_sum = sum(nums[:k])
+max_sum = window_sum
+
+for i in range(k, len(nums)):
+    window_sum = window_sum + nums[i] - nums[i - k]
+    if window_sum > max_sum:
+        max_sum = window_sum
+
+print(max_sum)
+
+
+nums = [1, 3, 2, 6, -1, 4, 1, 8, 2]
+k = 2
+window_sum = sum(nums[:k])
+max_sum = window_sum
+for i in range
+4,5, 8,5,, 3, 5, 9,3
+9
