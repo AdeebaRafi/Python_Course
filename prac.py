@@ -260,7 +260,8 @@ for i in range(k, len(nums)):
         max_sum = window_sum
 print(max_sum)
 
-s = "abcabcbb"
+s = "abba"
+
 
 seen = set()
 left = 0
@@ -274,4 +275,4 @@ for right in range(len(s)):
     seen.add(s[right])
     max_len = max(max_len, right - left + 1)
 
-print(max_len)
+// print(max_len)
