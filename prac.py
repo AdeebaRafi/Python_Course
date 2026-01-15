@@ -279,3 +279,22 @@ for right in range(len(s)):
 print(max_len)
 ## 14 jan practice
 
+nums = [2, 3, 1, 2, 4, 3]
+target = 7
+
+left = 0
+current_sum = 0
+min_len = float("inf")
+
+for right in range(len(nums)):
+    current_sum += nums[right]
+
+    while current_sum >= target:
+        min_len = min(min_len, right - left + 1)
+        current_sum -= nums[left]
+        left += 1
+
+if min_len == float("inf"):
+    print(0)
+else:
+    print(min_len)
