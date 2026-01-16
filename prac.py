@@ -300,3 +300,5 @@ else:
     print(min_len)
 ## hello
 ##
+# nums = [1, 4, 4]
+# target = 4
