@@ -333,3 +333,14 @@ def number(j):
         return False
 x = int(input("Enter a number: "))
 print(number(x))
+
+nums = input("Enter numbers with space: ")
+nums = nums.split()
+nums = [int(x) for x in nums]
+
+s = 0
+for e in nums:
+    if e % 2 == 0:
+        s += e
+
+print("Sum of even numbers:", s)
