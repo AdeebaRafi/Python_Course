@@ -29,7 +29,6 @@
 # else:
 #     print(z)
 
-
 # Take one number.
 # Print all numbers from 1 to that number
 
