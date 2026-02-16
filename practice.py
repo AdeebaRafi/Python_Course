@@ -18,3 +18,17 @@ for  i in range(15, 20):
 #     print(i)
 
 print("14 Feb 2026")
+
+# Write a function that takes a number
+# If the number is even return True
+# If not return False
+# Use if
+# Use return
+
+def number(j):
+    if(j%2==0):
+        return True
+    else:
+        return False
+x = int(input("Enter a number: "))
+print(number(x))
