@@ -40,3 +40,10 @@ def number(j):
         return False
 x = int(input("Enter a number: "))
 print(number(x))
+def number(j):
+    if(j%2==0):
+        return True
+    else:
+        return False
+x = int(input("Enter a number: "))
+print(number(x))
