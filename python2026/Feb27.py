@@ -20,3 +20,18 @@ for i in range(k, len(nums)):
     current_sum = current_sum - nums[i - k] + nums[i]
     max_sum = max(max_sum, current_sum)
 print(max_sum / k)
+
+# Find maximum number of 1s in any window of size 3
+
+nom = [1, 0, 1, 1, 0]
+m = 3
+count = 0
+for j in range(m):
+    if nom[j] == 1:
+        count += 1
+print(count)
+
+# Find length of longest subarray with sum <= 5.
+n = [1, 2, 1, 1, 3]
+for e in n:
+    if n[e]>=
