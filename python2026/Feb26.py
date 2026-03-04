@@ -13,7 +13,6 @@ else:
     print(False)
 # How to use Set & why to use it
 ## A set does not allow duplicate items and the elements are not stored in any particular order
-
 # nums = [1, 9, 1, 4]
 # def contains_duplicate(nums):
 #     seen = set()
@@ -23,19 +22,27 @@ else:
 #         seen.add(num)
 #
 #     return False
-#
 # result = contains_duplicate(nums)
 # print(result)
 
 # Question 2
 # Given a string, check if it is a palindrome.
-#
 # Example:
 # "madam" → True
 # "hello" → False
-#
 # Constraint:
 # Do not use reverse slicing.
+def yes_palindrome(a):
+    left = 0
+    right = len(a)-1
+    while left<right:
+        if left[s] != right[s]:
+            return False
+        left+=1
+        right-=1
+    return True
+text = "canac"
+print(yes_palindrome())
 
 def is_palindrome(s):
     left = 0
