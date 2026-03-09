@@ -5,7 +5,7 @@ def is_palindrome(a):
         if a[left] != a[right]:
             return False
         left+=1
-        right-=1
+        right-=1                                                                                      vvbnvb v
     return True
 text = "male"
 text1 = "MadaM"
