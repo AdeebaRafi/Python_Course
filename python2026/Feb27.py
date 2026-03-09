@@ -34,4 +34,4 @@ print(count)
 # Find length of longest subarray with sum <= 5.
 n = [1, 2, 1, 1, 3]
 for e in n:
-    if n[e]>=
+    if n[e]>=..
