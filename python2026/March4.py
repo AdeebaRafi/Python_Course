@@ -8,6 +8,8 @@ def is_palindrome(a):
         right-=1                                                                                      vvbnvb v
     return True
 text = "male"
+text = "male"
+
 text1 = "MadaM"
 print(is_palindrome(text))
 print(is_palindrome(text1))
