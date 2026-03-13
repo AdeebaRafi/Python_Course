@@ -9,6 +9,7 @@ def is_palindrome(a):
     return True
 text = "male"
 text = "male"
+text = "male"
 
 text1 = "MadaM"
 print(is_palindrome(text))
