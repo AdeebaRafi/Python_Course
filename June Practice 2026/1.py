@@ -23,15 +23,19 @@
 
 
 # Problem 4: Count Vowels
-count = 0
-vowel = ["a", "e", "i", "o", "u"]
-word = input("Enter a word: ")
-word = word.lower()
-for letter in word:
-    if letter in vowel:
-        count += 1
-print(count)
+# count = 0
+# vowel = ["a", "e", "i", "o", "u"]
+# word = input("Enter a word: ")
+# word = word.lower()
+# for letter in word:
+#     if letter in vowel:
+#         count += 1
+# print(count)
 
 # Problem 5: Multiplication Table
-
+total = 1
+n = int(input("Enter number: "))
+for i in range(1,11):
+    total = i * n
+print(f"{n} x {i} = {total}")
 
