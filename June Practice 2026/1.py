@@ -10,8 +10,10 @@
 # b = int(input("Enter second number"))
 # if a>b:
 #     print("Largest number is", a)
-# else:
+# if b > a:
 #     print("Largest number is", b)
+# else:
+#     print("Both numbers are equal")
 
 #
 # Problem 3: Sum of Numbers
@@ -37,5 +39,7 @@ total = 1
 n = int(input("Enter number: "))
 for i in range(1,11):
     total = i * n
-print(f"{n} x {i} = {total}")
+    print(f"{n} x {i} = {total}")
 
+
+# Problem 6: Positive, Negative, or Zero
