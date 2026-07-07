@@ -83,3 +83,6 @@ else:
         temp = temp // 10
 print(count)
 
+# Problem 10: Largest of Three Numbers
+inp = int(input("Enter a number: "))
+if inp >
