@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f597146-5767-414a-8d03-5c0b03fd4eef" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/June Practice 2026/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/June Practice 2026/1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,14 +81,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762940838729</updated>
-    </task>
-    <task id="LOCAL-00058" summary="update">
-      <option name="closed" value="true" />
-      <created>1768757523192</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1768757523192</updated>
     </task>
     <task id="LOCAL-00059" summary="update">
       <option name="closed" value="true" />
@@ -475,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782906994414</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="update">
+      <option name="closed" value="true" />
+      <created>1783423813658</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1783423813659</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
